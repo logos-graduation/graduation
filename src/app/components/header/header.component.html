@@ -1,0 +1,88 @@
+<div class="card-header"></div>
+<header>
+    <hr>
+    <div class="container bigHeader">
+        <div class="row align-items-center">
+            <!-- --------------------------/Login/----------------------------------- -->
+            <div class="col-1">
+                <i class="fas fa-user-alt fa-2x" routerLink='/auth'></i>
+            </div>
+            <!-- ------------------------/Logo/-------------------------------------------- -->
+            <div class="col-md-10 col-xs-8 text-center">
+                <img src="assets/img/logo.png" alt="logo" class="img-fluid col-xs-8" routerLink='/'>
+            </div>
+            <!-- -----------------------/Search/------------------------------ -->
+            <div class="col-1 col-xs-1">
+                <i class="fas fa-search fa-2x" routerLink='/search'></i><br>
+                <i class="fas fa-baby-carriage fa-2x" routerLink='/cart'></i>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------------/mobileHeader/------------------------------------ -->
+    <div class="container mobileHeader">
+        <div class="col-xs-12 text-center">
+            <img src="assets/img/logo.png" alt="logo" class="img-fluid">
+        </div>
+        <hr class="row">
+        <div class="">
+            <div class="col-xs-12 d-flex justify-content-between align-middle">
+                <button type="button" id="btnMobileMenu" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                    <i class="fas fa-bars fa-1x"></i>
+                </button>
+                <i class="fas fa-user-alt fa-2x col-xs-1" routerLink='/auth'></i>
+                <input type="search" name="mobileSearch" id="mobileSearch" hidden>
+                <i class="fas fa-search fa-2x col-xs-1" routerLink='/search'></i>
+                <i class="fas fa-baby-carriage fa-2x col-xs-1" routerLink='/cart'></i>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ----------------------------------/bigMenu/---------------------------------------- -->
+<div class="bigMenu">
+    <hr>
+    <nav class="container border rounded-pill bg-menu">
+        <ul class="nav justify-content-center">
+            <li class="nav-item" id="nav-item">
+                <a class="nav-link active" id="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item" id="nav-item">
+                <a class="nav-link" id="nav-link" href="#">Girls</a>
+            </li>
+            <li class="nav-item" id="nav-item">
+                <a class="nav-link" id="nav-link" href="#">Boys</a>
+            </li>
+            <li class="nav-item" id="nav-item">
+                <a class="nav-link" id="nav-link" href="#">About Us</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<!-- -----------------------------/mobileMenu/----------------------------- -->
+<div class="mobileMenu">
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog m-0 h-100" role="document">
+            <div class="modal-content border-0 h-100">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Menu</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body pt-0">
+                    <div class="list-group dropdown mobCategories text-center">
+                        <a href="#" class="list-group-item list-group-item-action" id="categories">
+                            Home
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">For girls</a>
+                        <a href="#" class="list-group-item list-group-item-action">For boys</a>
+                        <a href="#" class="list-group-item list-group-item-action">About Us</a>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <!-- <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>

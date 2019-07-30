@@ -1,0 +1,88 @@
+<main class="main mb-3">
+    <div class="container">
+        <p class="text-center font-weight-bold font-size-5" id="cart-heading">Ви у Корзині :)</p>
+    </div>
+    <!-- -------------------/bigCart/----------------------- -->
+    <div class="bigCart">
+        <div class="container mx-auto px-0">
+            <table class="table bg-light border-rounded">
+                <thead>
+                    <tr class="text-center">
+                        <th scope="col">img</th>
+                        <th scope="col">Opis</th>
+                        <th scope="col">price</th>
+                        <th scope="col">counter</th>
+                        <th scope="col">delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="assets/img/bembi.png" alt="photoOfProduct" class='h-25'></td>
+                        <td>
+                            <p class="my-auto text-center"> Тут буде опис вказаного товару, який знаходиться в корзині
+                            </p>
+                        </td>
+                        <td>1999.99$</td>
+                        <td>
+                            <div class="text-center d-flex my-auto justify-content-around">
+                                <button class="btn btn-danger rounded-circle text-center my-auto py-auto">
+                                    <i class="fas fa-minus text-white"></i>
+                                </button>
+                                <p class="mx-1 my-auto">1 шт.</p>
+                                <button class="btn btn-success rounded-circle text-center my-auto py-auto">
+                                    <i class="fas fa-plus text-white"></i>
+                                </button>
+                            </div>
+                        </td>
+                        <td><button class="btn btn-danger">Видалити</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table bg-light container">
+                <thead>
+                    <tr>
+                        <th class="col-md-6">Сума до оплати : 1999.99$</th>
+                        <th class="col-md-6"><button class="btn btn-success">Продовжити</button></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <!-- --------------------------/mobileCart/--------------------------- -->
+    <div class="mobileCart">
+        <div class="container">
+            <div class="card container" style="width: 18rem;">
+                <img class="card-img-top" src="assets/img/telepusiki.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Card title</h5>
+                    <hr>
+                    <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <hr>
+                    <div class="container mb-3 mx-auto text-center">
+                        <button class="btn btn-danger rounded-circle text-center">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                        <span class="mx-4">1 шт.</span>
+                        <button class="btn btn-success rounded-circle text-center">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <hr>
+                    <p class="btn bg-info text-white w-100 font-weight-bold text-center">Price: 1999.99$</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="totalSum col-10 mx-auto">
+            <div class="container mt-3 py-3 px-0 mx-0 d-flex bg-pink font-weight-bold">
+                <p class="col-7 text-center text-white my-auto px-0">СУМА ДО ОПЛАТИ:</p>
+                <p class="col-5 text-center text-white my-auto px-0">1999.99$</p>
+            </div>
+        </div>
+        <div class="container col-10">
+            <button class="btn btn-success mt-2 totalSum font-weight-bold w-100">ОПЛАТИТИ</button>
+        </div>
+        <hr>
+    </div>
+</main>

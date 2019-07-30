@@ -1,0 +1,242 @@
+body {
+    /* background-image: url(../img/фон.jpg); */
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+.card-header {
+    background-color: rgba(6, 164, 255, 0.5);
+    height: 35px;
+}
+
+.topMenu {
+    background-color: #fc5c7d;
+    color: white;
+}
+
+#nav-link {
+    color: white;
+    border-radius: 30px;
+}
+
+#nav-link:hover {
+    background-color: #22b6fa;
+}
+
+hr {
+    background-color: rgba(6, 164, 255, 0.25);
+}
+
+.card-footer {
+    background-color: rgba(6, 164, 255, 0.3);
+    height: 50px;
+}
+
+#categories {
+    background-color: rgba(6, 164, 255, 0.7);
+    color: white;
+}
+
+i {
+    color: pink;
+}
+
+.list-group-item:hover {
+    background-color: #ff52c5d0;
+    color: white;
+}
+
+#btnBuy {
+    background-color: #ff52c5d0;
+    border: 0;
+    border-radius: 5px;
+    width: 90%;
+}
+
+#btnBuy:hover {
+    background-color: rgba(6, 164, 255, 0.7);
+}
+
+.search {
+    background-color: aqua;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+    height: 40px;
+}
+
+.search-btn {
+    background-color: aqua;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+    height: 40px;
+    width: 40px;
+}
+
+.gift {
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #fa70cc 100%);
+    height: 500px;
+    color: white;
+    font-family: 'Pacifico';
+    font-size: 40px;
+}
+
+.zoom {
+    transform: scale(1.5)
+}
+
+.zoom:hover {
+    transform: scale(2);
+}
+
+.price {
+    color: #fa70cc;
+    font-family: 'Pacifico';
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.countName {
+    color: #fa70cc;
+    font-family: 'Pacifico';
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.buy {
+    border: 0;
+    color: white;
+    background-color: #fa70cc;
+    font-size: 18px;
+    font-family: 'Pacifico';
+    border-radius: 25px;
+}
+
+.buy:hover {
+    background-color: #22b6fa;
+}
+
+#navbarNav {
+    background-color: #22b6fa;
+    color: white;
+}
+
+@media only screen and (max-width: 579.9px) {
+    .bigCategories,
+    .bigHeader,
+    .bigMenu,
+    .bigCart,
+    .bigFooter,
+    .bigSelectProduct {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 579px) {
+    .mobileCategories,
+    .mobileHeader,
+    .mobileMenu,
+    .mobileSelectProduct,
+    .mobileCart,
+    .mobileFooter {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 512px) {
+    .smallMobileSelectProduct {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 512px) {
+    .mobileSelectProduct {
+        display: none;
+    }
+}
+
+#mobileSearch {
+    border: 0;
+    border-radius: 5px;
+    border-bottom: 1px solid #22b6fa;
+}
+
+i {
+    color: #fa70cc;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.bg-menu {
+    background-color: #fa70cc;
+}
+
+#mobileCategories {
+    background-color: #22b6fa69;
+}
+
+#catTop {
+    color: white;
+    font-family: 'pacifico';
+    font-size: 25px;
+}
+
+#whiteText>li>a {
+    color: #fa70cca8;
+    font-family: 'pacifico';
+    font-size: 22px;
+}
+
+
+/* ------------------------------------------------------- */
+
+.modal-open {
+    background-color: black;
+}
+
+.mobCategories>a {
+    border: 0;
+}
+
+#cart-heading {
+    font-size: 22px;
+    color: #22b6fa;
+}
+
+.myModal {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+}
+
+.bg-pink {
+    background-color: #f353be;
+}
+
+.totalSum {
+    font-size: 20px;
+}
+
+#textFooter {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.mobileFooter>div>div>h6 {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.table thead th {
+    vertical-align: 0;
+}
+
+.table th {
+    vertical-align: 0;
+}
+
+.table td {
+    vertical-align: 0;
+}
